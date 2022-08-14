@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo Torre de Hanoi</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo - Torre de Hanoi</h1>
+        <p>Passe as peças da torre A para a C</p>
+       
+        <ul>
+            Regras:
+            <li> - Só pode mexer uma peça por vez.</li>
+            <li> - Não pode colocar uma peça maior sobre uma menor.</li>
+        </ul>
+
+        <button id="btnRestartGame">Restart</button>
+    </header>
+
+    <main>
+        <div class="base">
+            <div class="estacas" id="stake1">
+                <div class="peca peca1" id="piece1" draggable="true"></div>
+                <div class="peca peca2" id="piece2"></div>
+                <div class="peca peca3" id="piece3"></div>
+            </div>
+            
+            <div class="estacas" id="stake2"></div>
+            <div class="estacas" id="stake3"></div>
+        </div>
+        <div class="titleTowers">
+            <p>A</p>
+            <p>B</p>
+            <p>C</p>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/Matheus-Pontes" title="Acesso ao github do Matheus">Desenvolvido por Matheus Pontes</a>
+    </footer>
+
+    <script src="ctrlTorre.js"></script>
+</body>
+</html>

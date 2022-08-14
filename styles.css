@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --white: #fff;
+    --blue: #2667FF;
+    --red: #F21919;
+    --green: #04E762;
+    --black: #000;
+    --blackLight: #212721;
+    --yellow: #ffcf00;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--black);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+header ul {
+    list-style: none;
+}
+
+#btnRestartGame {
+    padding: .55rem .95rem;
+    border-radius: 4px;
+    background-color: var(--yellow);
+    color: var(--black);
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem .8rem;
+}
+
+.base {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    border-radius: 6px;
+    border-bottom: 10px solid var(--blackLight);
+}
+
+.base .estacas {
+    height: 180px;
+    padding: 0.25rem;
+    background-color: var(--blackLight);
+    border: 0;
+    position: relative;
+}
+
+.peca {
+    position: absolute;
+    z-index: 10;
+    top: 148px;
+    width: 200px;
+    left: -96px;
+    padding: 1rem;
+    background-color: var(--green);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.peca1 {
+    top: 84px;
+    width: 100px;
+    left: -45px;
+    background-color: var(--blue);
+}
+
+.peca2 {
+    top: 116px;
+    width: 150px;
+    left: -71px;
+    background-color: var(--red);
+}
+
+.titleTowers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    color: var(--white);
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white); 
+}
