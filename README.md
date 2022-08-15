@@ -1,5 +1,5 @@
 # Jogo Torre de Hanoi
-
+- [Divirta - se](https://matheus-pontes.github.io/JogoTorreDeHanoi/)
 - [Mais sobre o jogo](https://carreiras.stoodi.com.br/torre-de-hanoi/)
 
 ## Gameplay
@@ -14,4 +14,6 @@
 ![image](https://user-images.githubusercontent.com/62751571/184538285-48af9fa1-b00a-463d-9c59-74713e3662ba.png)
 
 ## Techs 
-- HTML/CSS/JS
+- HTML
+- CSS
+- JS
